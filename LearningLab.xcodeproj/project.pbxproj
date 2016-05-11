@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23545D1B1CD16D5100AD622D /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23545D1A1CD16D5100AD622D /* PageContentViewController.m */; };
 		236F119D1CBBE9BE00675DC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F119C1CBBE9BE00675DC0 /* main.m */; };
 		236F11A01CBBE9BE00675DC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F119F1CBBE9BE00675DC0 /* AppDelegate.m */; };
 		236F11A31CBBE9BE00675DC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F11A21CBBE9BE00675DC0 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23545D191CD16D5100AD622D /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		23545D1A1CD16D5100AD622D /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 		236F11981CBBE9BD00675DC0 /* LearningLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		236F119C1CBBE9BE00675DC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		236F119E1CBBE9BE00675DC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,6 +68,8 @@
 				236F11A11CBBE9BE00675DC0 /* ViewController.h */,
 				236F11A21CBBE9BE00675DC0 /* ViewController.m */,
 				236F11A41CBBE9BE00675DC0 /* Main.storyboard */,
+				23545D191CD16D5100AD622D /* PageContentViewController.h */,
+				23545D1A1CD16D5100AD622D /* PageContentViewController.m */,
 				236F11AA1CBBE9BE00675DC0 /* Assets.xcassets */,
 				236F11AC1CBBE9BE00675DC0 /* LaunchScreen.storyboard */,
 				236F11AF1CBBE9BE00675DC0 /* Info.plist */,
@@ -155,6 +160,7 @@
 			files = (
 				236F11A31CBBE9BE00675DC0 /* ViewController.m in Sources */,
 				236F11A01CBBE9BE00675DC0 /* AppDelegate.m in Sources */,
+				23545D1B1CD16D5100AD622D /* PageContentViewController.m in Sources */,
 				236F119D1CBBE9BE00675DC0 /* main.m in Sources */,
 				236F11A91CBBE9BE00675DC0 /* LearningLab.xcdatamodeld in Sources */,
 			);
@@ -275,6 +281,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fabiogeneral.LearningLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -287,6 +294,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fabiogeneral.LearningLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -309,6 +317,7 @@
 				236F11B41CBBE9BE00675DC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
