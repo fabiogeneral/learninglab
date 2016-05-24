@@ -1,4 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Targets" syncable="YES">
+        <attribute name="agenda" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="anotacao_duvidas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="atencao" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="auto_controle" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="auto_estima" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="busca_por_respostas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="button_schedule" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="caderno_estudo_pessoal" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cadernos_estudos_escolares" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="duvidas_aulas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="enunciados_respostas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="estudo_diario" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="execucao" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="grifo" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="leitura_compreensao" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="licoes_casa" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mapa_conceitual" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="motivacao" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="organizacao_ambiental" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="organizacao_material" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="penultimo_indicador_cognitivo" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="refacao_exercicios_matematica" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="registros_marginais" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="registros_propria_autoria" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="releitura_materia_ministrada" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="rotina_cronograma" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="seguranca" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sintese_texto" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sintese_topicos" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="tabela" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="ultimo_indicador_cognitivo" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Targets" positionX="-63" positionY="-18" width="128" height="510"/>
+    </elements>
 </model>

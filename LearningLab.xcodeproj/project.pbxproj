@@ -15,6 +15,7 @@
 		236F11A91CBBE9BE00675DC0 /* LearningLab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 236F11A71CBBE9BE00675DC0 /* LearningLab.xcdatamodeld */; };
 		236F11AB1CBBE9BE00675DC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236F11AA1CBBE9BE00675DC0 /* Assets.xcassets */; };
 		236F11AE1CBBE9BE00675DC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236F11AC1CBBE9BE00675DC0 /* LaunchScreen.storyboard */; };
+		23C45E771CE4B47900979C4D /* TargetsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C45E761CE4B47900979C4D /* TargetsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		236F11AA1CBBE9BE00675DC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		236F11AD1CBBE9BE00675DC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		236F11AF1CBBE9BE00675DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C45E751CE4B47900979C4D /* TargetsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetsTableViewController.h; sourceTree = "<group>"; };
+		23C45E761CE4B47900979C4D /* TargetsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				236F11A11CBBE9BE00675DC0 /* ViewController.h */,
 				236F11A21CBBE9BE00675DC0 /* ViewController.m */,
 				236F11A41CBBE9BE00675DC0 /* Main.storyboard */,
+				23C45E751CE4B47900979C4D /* TargetsTableViewController.h */,
+				23C45E761CE4B47900979C4D /* TargetsTableViewController.m */,
 				23545D191CD16D5100AD622D /* PageContentViewController.h */,
 				23545D1A1CD16D5100AD622D /* PageContentViewController.m */,
 				236F11AA1CBBE9BE00675DC0 /* Assets.xcassets */,
@@ -158,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C45E771CE4B47900979C4D /* TargetsTableViewController.m in Sources */,
 				236F11A31CBBE9BE00675DC0 /* ViewController.m in Sources */,
 				236F11A01CBBE9BE00675DC0 /* AppDelegate.m in Sources */,
 				23545D1B1CD16D5100AD622D /* PageContentViewController.m in Sources */,
